@@ -1,0 +1,344 @@
+.panel-dashboard {
+  background-color: #f0f0f0;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.control-panel-main-content {
+  height: 100vh;
+}
+
+.main-header {
+  padding: 4rem 6rem;
+}
+
+.main-header-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  justify-content: flex-end;
+}
+
+.search-container {
+  background-color: #fff;
+  width: 42rem;
+  height: 4.6rem;
+  border-radius: 2.3rem;
+  box-shadow: 0 0.4rem 0.4rem 0 #00000074;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0 1.5rem;
+}
+
+.search-container__input-search {
+  height: 90%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-family: $primary-font;
+}
+
+.main-header-container__icon {
+  cursor: pointer;
+}
+
+.main-header-container__icon img {
+  height: 3.4rem;
+  width: 3.4rem;
+}
+
+.dashboard-section {
+  overflow-y: scroll;
+  height: calc(100% - 12.6rem);
+  padding: 0 6rem;
+  padding-bottom: 5rem;
+  scrollbar-width: thin;
+}
+
+.dashboard-section-container__title {
+  font-family: $primary-font;
+  font-weight: 700;
+  font-size: 4.2rem;
+  color: #333333;
+  margin-bottom: 4rem;
+}
+
+.data-container-and-statistics {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1.0rem;
+}
+
+.data-container {
+  background-color: #fff;
+  height: 30rem;
+  width: 35rem;
+  border-radius: 1.8rem;
+  overflow: hidden;
+  box-shadow: 0 0.2rem 1rem #00000032;
+}
+
+.data-dashboard {
+  background-color: #fff;
+  height: 40rem;
+  margin-top: 4rem;
+  border-radius: 2.2rem;
+  box-shadow: 0 0.2rem 1rem #00000032;
+  overflow: hidden;
+}
+
+.sidebar-section {
+  box-shadow: 0 0.4rem 0.8rem 0.4rem #00000020;
+  background-color: #fff;
+  overflow-y: scroll;
+  position: relative;
+  scrollbar-color: #858585 transparent;
+  scrollbar-width: thin;
+  padding-bottom: 4rem;
+  min-width: 27.2rem;
+}
+
+.sidebar-section::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.sidebar-section::-webkit-scrollbar-button {
+  display: none !important;
+}
+
+.sidebar-section-container {
+  font-family: $secondary-font;
+}
+
+.sidebar-header {
+  background-color: #f0f0f0;
+  height: 22.4rem;
+  padding: 3rem;
+  position: relative;
+  margin-bottom: 8rem;
+}
+
+.sidebar-header__menu {
+  height: 2.4rem;
+  width: 3rem;
+  margin-bottom: 1.5rem;
+  position: absolute;
+  right: 3rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: transparent;
+  border: none;
+}
+
+.menu-hamburger {
+  background-color: $primary-color;
+  height: 0.4rem;
+  border-radius: 0.5rem;
+}
+
+.sidebar-header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-header-container__user-name {
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin-bottom: 0.8rem;
+  margin-top: 4rem;
+}
+
+.sidebar-header-container__mail {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+
+.sidebar-header-container__photo {
+  height: 11.6rem;
+  width: 11.6rem;
+  border-radius: 100%;
+  background-color: #f0f0f0;
+}
+
+.container-option-dashboard {
+  background-color: $primary-color;
+  height: 6.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.container-option-dashboard__option {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.container-options {
+  border-bottom: 0.1rem solid #d1d1d1;
+  border-top: 0.1rem solid #d1d1d1;
+  margin: 2rem 0;
+  padding: 3.5rem 0 !important;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  height: 6.2rem;
+  padding-left: 3rem;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #f0f0f0;
+  }
+}
+
+.profile-configuration-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  height: 6.2rem;
+
+  &:hover {
+    background-color: #f0f0f0;
+  }
+}
+
+.sidebar-section-container__to-go-out {
+  margin-top: 20rem;
+  display: block;
+  position: relative;
+  bottom: 2rem;
+  text-align: end;
+  padding-right: 2.5rem;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.options__label,
+.profile-configuration-container__label {
+  color: #333333;
+}
+
+.sidebar-header-container__user-name,
+.sidebar-header-container__mail {
+  font-family: $primary-font;
+}
+
+.container-option-dashboard,
+.container-options,
+.profile-configuration-container {
+  padding: 0 3rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.icon {
+  height: 3rem;
+  width: 3rem;
+}
+
+.icon--size {
+  width: 2.7rem;
+  height: 2.8rem;
+}
+
+.container-option-dashboard__option,
+.options,
+.profile-configuration-container {
+  cursor: pointer;
+}
+
+.data-block-header {
+  display: flex;
+  padding: 2rem 4rem;
+  position: relative;
+  align-items: center;
+  border-bottom: 0.2rem solid #ececec;
+}
+
+.data-block-header-container__title {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #828282;
+  margin-bottom: 1rem;
+}
+
+.data-block-header-container__label {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #4f4f4f;
+}
+
+.data-block-header__icon {
+  position: absolute;
+  right: 4rem;
+  cursor: pointer;
+}
+
+.data-block-header-container__title,
+.data-block-header-container__label,
+.data-block-header-container__number {
+  font-family: $tertiary-source;
+}
+
+.data-block-header-container__title--size {
+  font-size: 1.8rem;
+}
+
+.data-block-header-container__label--size {
+  font-size: 1.5rem;
+}
+
+.data-block-header__icon--size img {
+  width: 2.5rem;
+}
+
+.data-dashboard-container {
+  width: 100%;
+  height: calc(100% - 10.5rem);
+  position: relative;
+}
+
+.data-dashboard-container::before {
+  content: "";
+  background: url("../../../../../public/dados-dashboard.png") no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.data-container-container {
+
+  width: 100%;
+  height: calc(100% - 9.4rem);
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.data-container-container img {
+  height: 90%;
+}
+
+.data-block-header-container__number {
+  color: $primary-color;
+  font-weight: 500;
+  font-size: 2.4rem;
+  display: flex;
+  margin-bottom: .8rem;
+}

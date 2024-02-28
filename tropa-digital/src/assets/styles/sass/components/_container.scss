@@ -1,0 +1,15 @@
+.container {
+  font-family: $secondary-font;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8rem;
+  height: 100%;
+}
+
+@media (max-width: 478px) {
+  .container {
+    padding: 0 2rem;
+  }
+}

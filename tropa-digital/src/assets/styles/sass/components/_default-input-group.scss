@@ -1,0 +1,60 @@
+.default-input-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+ 
+}
+
+.default-input-group--margin-bottom {
+  margin-bottom: 2rem;
+}
+
+.default-input-group--no-bottom-margin {
+  margin-bottom: 0;
+}
+
+.default-input-group__label {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: $primary-color;
+}
+
+.default-container-input {
+  width: 100%;
+  position: relative;
+}
+
+.default-container-input__input {
+  border: none;
+  border-bottom: 0.2rem solid $primary-color;
+  font-family: $secondary-font;
+  font-size: 1.6rem;
+  outline: none;
+  padding-bottom: 0.5rem;
+  width: 100%;
+}
+
+.default-container-input__input::placeholder {
+  font-weight: 400;
+  color: #333333;
+}
+
+.default-container-input__input--invalid {
+  border-bottom-color: rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
+}
+
+.default-input-group__incorrect-password-alert {
+  font-family: $primary-font;
+  font-weight: 400;
+  color: rgb(255, 0, 0);
+  margin-top: .5rem;
+}
+
+.default-input-group__incorrect-password-alert--display {
+  display: none;
+}
+
+
+

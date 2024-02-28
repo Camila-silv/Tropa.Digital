@@ -1,0 +1,33 @@
+.input-radio {
+  flex-direction: row;
+  margin-top: 2rem;
+
+  .input-radio__label {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+  }
+
+  input[type="radio"] + .input-radio__label::before {
+    content: "";
+    display: inline-block;
+    cursor: pointer;
+    padding: 0.7rem;
+    border: 0.2rem solid $primary-color;
+    border-radius: 100%;
+    margin-right: 0.5rem;
+  }
+
+  input[type="radio"]:checked + .input-radio__label::before {
+    background-color: $primary-color;
+    border-color: $primary-color;
+  }
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+

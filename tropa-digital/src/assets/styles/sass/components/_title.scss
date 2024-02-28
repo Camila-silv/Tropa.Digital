@@ -1,0 +1,17 @@
+.title {
+  font-family: $primary-font;
+  font-size: 8rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 4rem;
+ 
+  color: $primary-color;
+}
+
+@media (max-width: 555px) {
+ 
+  .title {
+    font-size: 5rem;
+  }
+}

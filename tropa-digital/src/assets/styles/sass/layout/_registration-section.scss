@@ -1,0 +1,57 @@
+.registration-section {
+  position: relative;
+}
+
+.registration-section__back-button,
+.registration-section__back-button a {
+  font-family: $primary-font;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  font-size: 1.2rem;
+  color: #000;
+  top: 4rem;
+  left: 6rem;
+  cursor: pointer;
+}
+
+.input-group-registration-form {
+  margin-bottom: 3rem;
+}
+
+.registration-form-container > .registration-form-container__title {
+  margin-top: 8rem;
+}
+
+.registration-form-container__button {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: $primary-color;
+  border: none;
+  margin-top: 3rem;
+
+  &:hover {
+    background-color: #b55733;
+  }
+}
+
+.input-group-registration-form:nth-child(5) {
+  margin-bottom: 0;
+}
+
+.input-group-registration-form-link {
+  color: $primary-color;
+  margin-left: .5rem;
+  text-decoration: underline;
+}
+
+.label--special-character {
+  font-family: $primary-font;
+  padding-left: .4rem;
+  font-size: 1.0rem;
+  color: $primary-color;
+}
+
+
