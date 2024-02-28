@@ -38,7 +38,7 @@
 
 <div align="left">
   <h2>Aplicação</h2>
-  <div align="center"><img height="700px" src=";" alt="Gif ilustrativo sobre a aplicação desenvolvida nesse projeto."></div>
+  <div align="center"><img height="700px" src="https://github.com/Camila-silv/Tropa.Digital/blob/main/tropa-digital/public/Anima%C3%A7%C3%A3o.gif" alt="Gif ilustrativo sobre a aplicação desenvolvida nesse projeto."></div>
 </div>
 
 
